@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/go-fires/fires/cache"
+	"github.com/go-fires/cache"
 	"github.com/go-fires/serializer"
 	"github.com/redis/go-redis/v9"
 )

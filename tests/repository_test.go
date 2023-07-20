@@ -1,13 +1,14 @@
 package tests
 
 import (
-	"github.com/go-fires/fires/cache"
-	"github.com/go-fires/fires/cache/store/memory"
-	"github.com/go-fires/fires/cache/store/redis"
-	rds "github.com/redis/go-redis/v9"
-	"github.com/stretchr/testify/assert"
 	"testing"
 	"time"
+
+	"github.com/go-fires/cache"
+	"github.com/go-fires/cache/store/memory"
+	"github.com/go-fires/cache/store/redis"
+	rds "github.com/redis/go-redis/v9"
+	"github.com/stretchr/testify/assert"
 )
 
 func createMemoryStore() *memory.Store {

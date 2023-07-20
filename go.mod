@@ -3,8 +3,8 @@ module github.com/go-fires/cache
 go 1.20
 
 require (
-	github.com/go-fires/fires v0.4.0
 	github.com/go-fires/serializer v0.0.0-00010101000000-000000000000
+	github.com/go-fires/support v0.0.0-00010101000000-000000000000
 	github.com/redis/go-redis/v9 v9.0.5
 	github.com/stretchr/testify v1.8.4
 )
@@ -17,4 +17,7 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-replace github.com/go-fires/serializer => ../serializer
+replace (
+	github.com/go-fires/serializer => ../serializer
+	github.com/go-fires/support => ../support
+)

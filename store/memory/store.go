@@ -4,7 +4,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/go-fires/fires/cache"
+	"github.com/go-fires/cache"
 )
 
 type item struct {
